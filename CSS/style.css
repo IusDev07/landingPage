@@ -123,3 +123,38 @@ figure{
     font-size: 24px;
     font-weight: bold;
 }
+/*Call to action---------------------*/
+.callContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+}
+.callSubContainer{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    width: 70%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-radius: 5px;
+}
+.callSubContainer h3{
+    font-size: 36px;
+    color: #f9faf8;
+}
+.callSubContainer{
+    color: #e5e7eb;
+}
+.callButton{
+    background-color: transparent;
+    padding: 10px 20px;
+    border-color: #f9faf8;
+    color: #f9faf8;
+    font-size: 18px;
+    border: 2px solid;
+    border-radius: 5px;
+    cursor: pointer; 
+}
