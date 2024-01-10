@@ -92,10 +92,34 @@ header{
 }
 .informationContainer p{
     text-align: center;
+    font-size: 18px;
+    color: gray;
 }
 figure{
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 100px;
+}
+/*Quote section-----------------------*/
+.quote{
+    background-color:#e5e7eb;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.quoteText{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    padding-left: 200px;
+    padding-right: 200px; 
+}
+.author{
+    text-align: end;
+    padding-top: 2rem;
+    padding-right: 12rem;
+    font-size: 24px;
+    font-weight: bold;
 }
